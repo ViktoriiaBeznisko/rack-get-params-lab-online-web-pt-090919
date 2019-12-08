@@ -29,13 +29,5 @@ class Application
     end
   end
   
-    def cart_search(search_term)
-    if @@cart.include?(search_term)
-      return "#{search_term}"
-    else
-      return "Your cart is empty"
-    end
-  end
-  
  
 end
