@@ -2,6 +2,7 @@ class Application
 
   @@items = ["Apples","Carrots","Pears"]
   @@cars = []
+  
   def call(env)
     resp = Rack::Response.new
     req = Rack::Request.new(env)
