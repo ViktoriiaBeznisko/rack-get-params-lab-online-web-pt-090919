@@ -29,7 +29,7 @@ class Application
     end
   end
   
-    def handle_search(search_term)
+    def cart_search(search_term)
     if @@cart.include?(search_term)
       return "#{search_term} is one of our items"
     else
