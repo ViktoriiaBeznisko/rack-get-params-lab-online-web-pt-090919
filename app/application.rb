@@ -30,7 +30,7 @@ class Application
   end
   
     def handle_search(search_term)
-    if @@items.include?(search_term)
+    if @@cart.include?(search_term)
       return "#{search_term} is one of our items"
     else
       return "Your cart is empty"
